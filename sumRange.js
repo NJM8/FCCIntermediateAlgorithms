@@ -1,3 +1,5 @@
+// You will be passed an array of two numbers, return the sum of these numbers plus all the numbers inbetween.
+
 function sumAll(arr) {
   return arr.reduce((sum, element, index) => {
     if (index === 0) {
